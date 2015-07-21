@@ -1,0 +1,50 @@
+div.hand-container {
+  transform: scale(0.5);
+  position: absolute;
+  margin-left: -2em;
+  margin-top: -5em;
+  width: 240px;
+  height: 335px;
+  transition: transform 500ms ease; }
+
+.card-1 {
+  transform: rotate(-25deg);
+  position: fixed;
+  margin-left: 1.8em; }
+
+.card-2 {
+  transform: rotate(-15deg);
+  position: fixed;
+  margin-left: 2.6em; }
+
+.card-3 {
+  transform: rotate(-5deg);
+  position: fixed;
+  margin-left: 3.4em; }
+
+.card-4 {
+  transform: rotate(5deg);
+  position: fixed;
+  margin-left: 4.2em; }
+
+.card-5 {
+  transform: rotate(15deg);
+  position: fixed;
+  margin-left: 5em; }
+
+.card-6 {
+  transform: rotate(25deg);
+  position: fixed;
+  margin-left: 5.8em; }
+
+.card-7 {
+  transform: rotate(35deg);
+  position: fixed;
+  margin-left: 6.6em; }
+
+.card-8 {
+  transform: rotate(45deg);
+  position: fixed;
+  margin-left: 7.4em; }
+
+/*# sourceMappingURL=index.css.map */

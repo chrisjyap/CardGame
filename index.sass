@@ -1,0 +1,19 @@
+$class-slug: card
+
+div.hand-container
+  transform: scale(.5)
+  position: absolute
+  margin-left: -2em
+  margin-top: -5em
+  width: 240px
+  height: 335px
+  transition: transform 500ms ease
+
+
+
+
+@for $i from 1 through 8
+  .#{$class-slug}-#{$i}
+    transform: rotate( -25deg+ 10* ($i - 1))
+    position: fixed
+    margin-left: 1em + $i * .8
